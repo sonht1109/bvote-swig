@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 18" width="17" height="18">
+	<defs>
+		<image  width="17" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAASCAMAAACKJ8VmAAAAAXNSR0IB2cksfwAAAWVQTFRFKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFpKcFp4MYOpAAAAHd0Uk5TAA5uzeu8VgESdNTywVoCBWTk/P/CQjTh/bYUA3D+3UQHfuNSUdMqnO14G3uyxKlmEBE8VTELBgl/l5aZooUTh4hGCApjz/f79ZVO1/nYbSE17Lorv8Wq23aKtZC0MMex2o9Nmiggn8avuMi3ndx37+nq8POjkidn/wXpAAAA50lEQVR4nGNgAAJGJmYWVjZ2BgTg4OTi5uHlQwjwCwgKCQuJiCJExMSFgUBCUgomIC0DEhCWlZOHiSgogkWElZRhIuwqEDWqanBzpNSFJWSFNTSRrNfS1tHV0zdACLBLGxoZm5gysJuZQdxkLmphaWVtY2snau/g6MTOIO3s4uom5C7k4enlLeHj6+fPEMAbKAuyKSg4RDg0TDg8giEyCmy3RLS8RIxobIhsHEN8AkQkMUk4OSU1TTadIcMX4r5Mkyz37Byh3DyG+HCIH/I5kwok3As1Uxk8Q9yLgKDYvUSr1MfNuswJABoIKKLHOFmrAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="MENU">
+		<use id="Layer 49" href="#img1" x="0" y="0" />
+	</g>
+</svg>

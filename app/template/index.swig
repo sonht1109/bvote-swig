@@ -5,17 +5,11 @@
     <main id="main">
         <section class="section-index">
             <div class="bs-container">
-                <div class="bs-row">
-                    <div class="bs-col">
-                        <div class="module module-index">
-                            <div class="module-header">
-                                <h2 class="title">
-                                    asdsadjks
-                                </h2>
-                            </div>
-                            <div class="module-content">
-                                
-                            </div>
+                <div class="bs-row row-right text-input_row">
+                    <div class="bs-col md-15 sm-20">
+                        <div class="text-input">
+                            <input type="text" placeholder="Tìm kiếm ..." />
+                            <i class="fas fa-search"></i>
                         </div>
                     </div>
                 </div>

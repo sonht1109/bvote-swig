@@ -1,14 +1,29 @@
-.section-index{
-    .module-index{
-        .module-header{
-            .title{
-                color: #000;
-                text-align: center;
-            }
+.section-index {
+  .bs-container {
+    .text-input_row {
+      .text-input {
+        border: 1px solid rgba(255, 255, 255, 1);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 20px;
+        padding: 0 10px;
+        input[type="text"] {
+          background-color: transparent;
+          height: 36px;
+          color: white;
+          border-color: transparent;
+          &::placeholder{
+            color: white;
+          }
         }
-        .module-content{
-            border: 5px solid #000;
-            height: 500px;
+      }
+      .fa-search {
+        color: #3cb85a;
+        &:hover{
+            cursor: pointer;
         }
+      }
     }
+  }
 }
