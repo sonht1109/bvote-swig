@@ -44,8 +44,14 @@ $(document).ready(function () {
             scrollTop: 0
         }, 1000);
     });
-    $('.menu .toggle-search').on('click', function() {
-        $(".text-input").addClass('.hide')
-        $(".text-input").slideUp()
+    $('.menu .toggle-search').on('click', function () {
+        if($('.toggle-search i').hasClass('fa-times')){
+            $('.text-input').slideUp()
+            $(".toggle-search i").removeClass('fa-times').addClass('fa-search')
+        }
+        else{
+            $('.text-input').slideDown()
+            $(".toggle-search i").removeClass('fa-search').addClass('fa-times')
+        }
     })
 });
