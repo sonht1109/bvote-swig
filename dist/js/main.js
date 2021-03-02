@@ -76,7 +76,8 @@ $(document).ready(function () {
                 slidesToShow: 3,
                 slidesToScroll: 1
             }
-        }, {
+        },
+        {
 
             breakpoint: 767,
             settings: {
@@ -100,7 +101,6 @@ $(document).ready(function () {
                 slidesToShow: 1,
                 slidesToScroll: 1
             }
-        }
-        ]
+        }]
     });
 });
