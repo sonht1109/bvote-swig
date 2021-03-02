@@ -45,13 +45,62 @@ $(document).ready(function () {
         }, 1000);
     });
     $('.menu .toggle-search').on('click', function () {
-        if($('.toggle-search i').hasClass('fa-times')){
+        if ($('.toggle-search i').hasClass('fa-times')) {
             $('.text-input').slideUp()
             $(".toggle-search i").removeClass('fa-times').addClass('fa-search')
         }
-        else{
+        else {
             $('.text-input').slideDown()
             $(".toggle-search i").removeClass('fa-search').addClass('fa-times')
         }
     })
+    $(".bs-slide").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        centerMode: true,
+        centerPadding: '0',
+        dots: true,
+        fade: false,
+        autoplay: false,
+        infinite: true,
+        draggable: false,
+        swipeToSlide: true,
+        touchMove: true,
+        swipe: true,
+        nextArrow: '.next_caro',
+        prevArrow: '.prev_caro',
+        responsive: [{
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        }, {
+
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        },
+
+
+        {
+            breakpoint: 550,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+
+        {
+            breakpoint: 479,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+        ]
+    });
 });

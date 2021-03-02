@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 6" width="73" height="6">
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="0" y1="3.465" x2="72.958" y2="3.465">
+			<stop offset="0" stop-color="#00e0ef"  />
+			<stop offset="1" stop-color="#0fe692"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+	</style>
+	<g id="NOI DUNG">
+		<g id="GIOI THIEU">
+			<path id="Rectangle 73" class="shp0" d="M0 0.97L72.96 0.97L72.96 5.96L0 5.96L0 0.97Z" />
+		</g>
+	</g>
+</svg>
