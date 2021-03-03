@@ -1,7 +1,88 @@
+.text-main-color{
+    color: #00d166;
+}
+
 #footer {
-    background: blue;
-    color: #fff;
-    text-align: center;
-    height: 100px;
-    padding-top: 40px;
+  margin-top: 200px;
+  background-image: url("../../../../dist/images/footer-bg.png");
+  color: #fff;
+  text-align: center;
+  .section-contact {
+    background-image: url("../../../../dist/images/footer-stars.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .module-contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 550px;
+
+      h2 {
+        margin: 0 auto;
+        max-width: 1000px;
+        font-weight: 700;
+        font-style: italic;
+        font-family: "Josefin Sans";
+        line-height: 53px;
+        font-size: 32px;
+        span {
+          color: #00d166;
+          font-size: 50px;
+        }
+      }
+      button {
+        width: 267px;
+        height: 45px;
+        border-radius: 22px;
+        background-image: linear-gradient(90deg, #00e0ef 0%, #0fe692 100%);
+        position: relative;
+        color: #00053a;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 16px;
+        font-family: "Josefin Sans";
+        margin-top: 20px;
+        img {
+          position: absolute;
+          top: 50%;
+          right: 20px;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+  .section-address {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: "Josefin Sans";
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    padding: 55px 0;
+    margin-top: -80px;
+    .module-address {
+      .address-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        a{
+            color: white;
+          text-decoration: underline;
+          &:hover {.text-main-color()}
+        }
+        .logo {
+            margin-bottom: 22px;
+          img {
+            width: 220px;
+            height: auto;
+            margin-bottom: 30px;
+          }
+        }
+      }
+      .address-right{
+        span{.text-main-color()}
+        }
+    }
+  }
 }

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="28" height="28">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.439;fill: #00053b } 
+		.txt1 { font-size: 17px;line-height: 35px;fill: #ffffff;font-weight: 400;font-family: "JosefinSans-Regular", "Josefin Sans";text-anchor: start } 
+	</style>
+	<g id="NOI DUNG">
+		<g id="LIÊN HỆ">
+			<path id="Ellipse 4" class="shp0" d="M14 0C21.73 0 28 6.27 28 14C28 21.73 21.73 28 14 28C6.27 28 0 21.73 0 14C0 6.27 6.27 0 14 0Z" />
+			<text id="&gt;" style="transform: matrix(1,0,0,1,8.855,18.449)" >
+				<tspan x="0" y="0" class="txt1" dx="0" >&gt;</tspan>
+			</text>
+		</g>
+	</g>
+</svg>
