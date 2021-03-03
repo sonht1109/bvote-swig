@@ -119,25 +119,25 @@ dd{% extends 'layouts/base.swig' %}
                                     HỆ THỐNG CẤU THÀNH LÊN BVOTE
                                 </h2>
                             </div>
-                            <div class="structure-detail">
-                                    <p class="detail-title">VSA Blockchain System</p>
-                                    <p>Votes Storage & Analysis Blockchain System - Đây là hệ thống giúp hỗ trợ khởi tạo và lưu các sự kiện bình chọn, đánh giá; Xử lý quá trình bình chọn đánh giá của người dùng; Lưu trữ kết quả bình chọn đánh giá của người dùng; Lưu kết quả của các sự kiện bình chọn đánh giá</p>
-                                </div>
                             <div class="module-content">
                                 <div class="structure-img">
+                                    <img src="../../dist/images/structure-arrow.png" class="api-system arrow" alt="" />
+                                    <div class="structure-detail block-chain">
+                                        <p class="detail-title">VSA Blockchain System</p>
+                                        <span>Votes Storage & Analysis Blockchain System - Đây là hệ thống giúp hỗ trợ khởi tạo và lưu các sự kiện bình chọn, đánh giá; Xử lý quá trình bình chọn đánh giá của người dùng; Lưu trữ kết quả bình chọn đánh giá của người dùng; Lưu kết quả của các sự kiện bình chọn đánh giá</span>
+                                    </div>
                                     <img src="../../dist/images/structure.png" alt="" />
                                     <img class="app-client structure-icon structure-icon-1" src="../../dist/images/app-client.png" alt="" />
                                     <img class="web-client structure-icon structure-icon-2" src="../../dist/images/web-client.png" alt="" />
                                     <img class="api-system structure-icon structure-icon-3" src="../../dist/images/api-system.png" alt="" />
                                     <img class="kyc structure-icon structure-icon-4" src="../../dist/images/kyc.png" alt="" />
                                     <img class="block-chain structure-icon structure-icon-5" src="../../dist/images/block-chain.png" alt="" />
-                                    <p class="text-app-client">app client</p>
-                                    <p class="text-web-client">website client</p>
-                                    <p class="text-api-system">api system</p>
-                                    <p class="text-kyc">kyc blockchain system</p>
-                                    <p class="text-block-chain">VSA Blockchain System</p>
+                                    <p class="text-app-client structure-text">app client</p>
+                                    <p class="text-web-client structure-text">website client</p>
+                                    <p class="text-api-system structure-text">api system</p>
+                                    <p class="text-kyc structure-text">kyc blockchain system</p>
+                                    <p class="text-block-chain structure-text">VSA Blockchain System</p>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>

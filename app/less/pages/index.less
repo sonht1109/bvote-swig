@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 .utm-font {
-  font-family: "UTM Avo", sans-serif;
+  font-family: "U TM Avo", sans-serif;
 }
 .title {
   font-size: 42px;
@@ -244,6 +244,7 @@
     padding-bottom: 100px;
     margin-top: -50px;
     z-index: 0;
+    user-select: none;
     svg {
       path {
         fill: #eef1f6;
@@ -254,17 +255,47 @@
         .title {
           color: #26c382;
           margin-top: 70px;
-          margin-bottom: 175px;
+          margin-bottom: 105px;
+          font-size: 34px;
+          .utm-font();
         }
       }
       .module-content {
         display: flex;
         position: relative;
-
+        .arrow{
+          position: absolute;
+        }
+        .structure-detail{
+          position: absolute;
+          top: 0;
+          z-index: 10;
+          max-width: 320px;
+          color: white;
+          background-color: #000b22;
+          box-shadow: 0 0 10px #0fe692;
+          border-radius: 16px;
+          padding: 20px;
+          .utm-font();
+          .detail-title{
+            font-weight: bold;
+            font-size: 17px;
+            margin-bottom: 15px;
+          }
+          span{
+            font-size: 14px;
+            line-height: 21px;
+          }
+        }
+        .structure-detail.app-client,
+        .structure-detail.api-system,
+        .structure-detail.block-chain{
+          transform: translate(155px, 35px);
+        }
         .structure-img {
           margin: 0 auto;
           position: relative;
-          transform: translateX(40px);
+          transform: translateX(75px);
           max-width: 100%;
         }
         .structure-icon {
@@ -274,7 +305,7 @@
             transform: translateY(-10px) scale(1.06);
           }
         }
-        p {
+        p.structure-text {
           text-transform: uppercase;
           position: absolute;
           font-size: 17px;
@@ -287,7 +318,7 @@
           text-align: center;
         }
         .text-app-client {
-          top: 42%;
+          top: 44%;
           left: -8%;
         }
         .text-web-client {
@@ -299,8 +330,8 @@
           left: 47%;
         }
         .text-kyc {
-          top: 16%;
-          left: 80%;
+          top: 17%;
+          left: 82%;
         }
         .text-block-chain {
           top: 66%;
@@ -320,8 +351,8 @@
           left: 40%;
         }
         .kyc {
-          top: 16%;
-          left: 70%;
+          top: 17%;
+          left: 69%;
         }
         .block-chain {
           top: 66%;
@@ -336,11 +367,15 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
+    padding-top: 125px;
     .module-road-map {
       .module-title {
         h2 {
+          font-size: 33px;
+          line-height: 30px;
           color: #26c382;
+          font-family: "U TM Avo Bold";
         }
         p {
           font-size: 14px;
@@ -474,19 +509,19 @@
           }
         }
       }
-      .module-content{
-        .benefits-detail{
+      .module-content {
+        .benefits-detail {
           margin: 25px 0;
-          span{
+          span {
             line-height: 26px;
           }
         }
       }
-      .laptop{
+      .laptop {
         display: flex;
         height: 100%;
         align-items: center;
-        img{
+        img {
           width: 100%;
           height: auto;
           cursor: pointer;
