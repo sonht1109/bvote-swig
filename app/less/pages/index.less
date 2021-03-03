@@ -17,6 +17,10 @@
   justify-content: center;
   align-items: center;
 }
+button{transition: 0.3s;}
+button:hover{
+  transform: translateY(-5px);
+}
 
 #main {
   .section-intro {
@@ -263,12 +267,9 @@
       .module-content {
         display: flex;
         position: relative;
-        .arrow{
-          position: absolute;
-        }
         .structure-detail{
           position: absolute;
-          top: 0;
+          top: 30%;
           z-index: 10;
           max-width: 320px;
           color: white;
@@ -277,6 +278,9 @@
           border-radius: 16px;
           padding: 20px;
           .utm-font();
+          .arrow{
+            position: absolute;
+          }
           .detail-title{
             font-weight: bold;
             font-size: 17px;
@@ -287,10 +291,26 @@
             line-height: 21px;
           }
         }
-        .structure-detail.app-client,
+        .structure-detail{
+          transform: scale(0);
+        }
         .structure-detail.api-system,
         .structure-detail.block-chain{
-          transform: translate(155px, 35px);
+          transition-duration: 0.5s;
+          transform: translate(155px, 35px) scale(1);
+          .arrow{
+            left: -35px;
+          }
+        }
+        .structure-detail.app-client,
+        .structure-detail.web-client,
+        .structure-detail.kyc{
+          transition-duration: 0.5s;
+          transform: translate(calc(-1*(100% + 40px)), -35px) scale(1);
+          .arrow {
+            right: -35px;
+            transform: rotate(180deg);
+          }
         }
         .structure-img {
           margin: 0 auto;
@@ -306,6 +326,7 @@
           }
         }
         p.structure-text {
+          transition: 0.3s;
           text-transform: uppercase;
           position: absolute;
           font-size: 17px;
@@ -316,6 +337,9 @@
           flex-wrap: wrap;
           .utm-font();
           text-align: center;
+        }
+        p.structure-text.disappear{
+          opacity: 0;
         }
         .text-app-client {
           top: 44%;

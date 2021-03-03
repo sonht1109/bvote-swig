@@ -103,9 +103,15 @@ $(document).ready(function () {
             }
         }]
     });
-        $(".structure-icon").on('click', (e) => {
-            e.preventDefault();
-            console.log($(e.target).attr('class'))
-        })
-
+    $(".structure-icon").mouseenter((e) => {
+        $('.structure-detail').removeClass().addClass('structure-detail')
+        let className = $(e.target).attr('class').split(' ')[0]
+        let title = $(e.target).attr('data-title')
+        $('.structure-detail').addClass(className)
+        $('.structure-detail .detail-title').text(title)
+        $('.structure-text').addClass('disappear')
+    }).mouseleave(() => {
+        $('.structure-detail').removeClass().addClass('structure-detail')
+        $('.structure-text').removeClass('disappear')
+    })
 });
