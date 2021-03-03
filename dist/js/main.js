@@ -103,4 +103,9 @@ $(document).ready(function () {
             }
         }]
     });
+        $(".structure-icon").on('click', (e) => {
+            e.preventDefault();
+            console.log($(e.target).attr('class'))
+        })
+
 });
