@@ -14,8 +14,6 @@ $(document).ready(function () {
     $(window).on("load", function () {
         if ($(this).scrollTop() >= 42) {
             $(".header-nav").addClass("scrolled");
-
-
         } else {
             $(".header-nav").removeClass("scrolled");
 
@@ -31,11 +29,8 @@ $(document).ready(function () {
         }
         if ($(this).scrollTop() >= 42) {
             $("#header").addClass("scrolled");
-
-
         } else {
             $("#header").removeClass("scrolled");
-
         }
     });
     $(".back-top").on("click", function () {

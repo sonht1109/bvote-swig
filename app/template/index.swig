@@ -45,7 +45,27 @@
                             <p>Boy desirous families prepared gay reserved add ecstatic say. Replied joy age visitor nothing cottage.</p>
                         </div>
                         <div class="module-content">
-                            12635
+                            <div class="bs-slide">
+                                <div class="item">
+                                    SLIDE 1
+                                </div>
+                                <div class="item">
+                                    SLIDE 2
+                                </div>
+                                <div class="item">
+                                    SLIDE 3
+                                </div>
+                                <div class="item">
+                                    SLIDE 4
+                                </div>
+                                <div class="item">
+                                    SLIDE 5
+                                </div>
+                                <div class="item">
+                                    SLIDE 6
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
