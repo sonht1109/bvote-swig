@@ -1,21 +1,4 @@
-<footer id="footer">
-    <section class="section-contact">
-        <div class="bs-container">
-            <div class="bs-row">
-                <div class="bs-col">
-                    <div class="module module-contact">
-                        <h2>CHÚNG TÔI LUÔN SẴN SÀNG HÃY KẾT NỐI VỚI <span>BVOTE!</span>
-                        </h2>
-                        <a href="./contact.html">
-                            <button>LIÊN HỆ 
-                                <img src="../../../dist/images/button-arrow.svg" alt=""/>
-                            </button>
-                        </a>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </section>
+<footer id="sub-footer">
     <section class="section-address">
         <div class="bs-container">
             <div class="bs-row">

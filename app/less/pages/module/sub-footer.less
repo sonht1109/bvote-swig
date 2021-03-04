@@ -1,0 +1,44 @@
+.text-main-color{
+    color: #00d166;
+}
+
+#sub-footer {
+  background-image: url("../../../../dist/images/sub-footer-bg.png");
+  background-color: #10043c;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  .section-address {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: "Josefin Sans";
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    padding: 55px 0;
+    .module-address {
+      .address-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        a{
+            color: white;
+          text-decoration: underline;
+          &:hover {.text-main-color()}
+        }
+        .logo {
+            margin-bottom: 22px;
+          img {
+            width: 220px;
+            height: auto;
+            margin-bottom: 30px;
+          }
+        }
+      }
+      .address-right{
+        span{.text-main-color()}
+        }
+    }
+  }
+}

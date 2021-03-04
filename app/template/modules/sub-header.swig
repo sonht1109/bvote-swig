@@ -1,4 +1,4 @@
- <header id="header">
+ <header id="sub-header">
         <div class="header-top">
             <div class="bs-container">
                 <div class="top-content clearfix">
@@ -74,7 +74,7 @@
                                     <a href="contacts.html" class="menu-list__link">DỰ ÁN</a>
                                 </li>
                             </ul>
-                            <div class="toggle-search">
+                             <div class="toggle-search">
                                 <i class="fas fa-times"></i>
                             </div>
                         </div>
@@ -82,8 +82,7 @@
                 </div>
             </div>
         </div>
-        <div class="header-banner">
-            <div class="bs-container">
+        <div class="bs-container">
                 <div class="bs-row row-right row-md-15 text-input_row">
                     <div class="bs-col md-25-15 sm-20">
                         <div class="text-input">
@@ -93,22 +92,4 @@
                     </div>
                 </div>
             </div>
-            <div class="bs-container-fluid">
-                <div class="banner-left">
-                    <div class="above-title-block">Đang diễn ra</div>
-                    <div class="title-block">
-                        <div class="angle top-left"></div>
-                        <div class="angle top-right"></div>
-                        <div class="angle bottom-left"></div>
-                        <div class="angle bottom-right"></div>
-                        <h3>HOA KHÔI ĐẠI SỨ</h3>
-                        <h4>MÔI TRƯỜNG HẢI PHÒNG </h4>
-                    </div>
-                    <p>Gay one the what walk then she. Demesne mention promise you justice arrived way. Or increasing to in especially inquietude companions acceptance admiration. Outweigh it families distance wandered</p>
-                </div>
-                <div class="banner-right">
-                    <img src="../../dist/images/bvote-banner.png" alt="" />
-                </div>
-            </div>
-        </div>
     </header>
