@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+.utm-font {
+  font-family: "U TM Avo", sans-serif;
+}
+
+#contact {
+  #section-contact-banner {
+    .contact-banner {
+      background-color: black;
+      background-image: url("../../../dist/images/contact-bg.png");
+      height: 270px;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        font-weight: bold;
+        .utm-font();
+        font-size: 25px;
+        color: white;
+        line-height: 40px;
+      }
+      p,
+      a {
+        font-style: 15px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Josefin Sans";
+        a:hover {
+          color: #0fe692;
+        }
+      }
+    }
+  }
+  #section-contact-detail {
+    padding: 90px 0;
+    .utm-font();
+    .contact-title {
+      line-height: 21px;
+      color: #002d52;
+      font-weight: bold;
+      font-size: 21px;
+      margin-bottom: 40px;
+    }
+    .contact-detail_left {
+        padding-right: 80px;
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        color: #002d52;
+        font-style: italic;
+        flex-wrap: wrap;
+      }
+      .contact-address {
+          margin-left: 20px;
+        h6 {
+          font-size: 15px;
+          line-height: 25px;
+          color: #002d52;
+          font-weight: bold;
+        }
+        p{
+            font-style: normal;
+        }
+        div{
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            p{
+                margin-left: 18px;
+            }
+        }
+      }
+    }
+    .contact-detail_right{
+        .utm-font();
+        .input-group{
+            display: flex;
+            justify-content: space-between;
+            input{
+                width: 49%;
+            }
+        }
+        input, textarea{
+            border: 0.2px solid #b0bfd8;
+            margin: 5px 0;
+        }
+        button{
+            width: 100%;
+            background-image: linear-gradient(90deg, #00e0ef 0%, #0fe692 100%);
+            border-radius: 3px;
+            color: white;
+            font-weight: bold;
+            height: 40px;
+        }
+    }
+  }
+}

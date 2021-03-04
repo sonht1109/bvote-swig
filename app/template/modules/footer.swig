@@ -6,9 +6,11 @@
                     <div class="module module-contact">
                         <h2>CHÚNG TÔI LUÔN SẴN SÀNG HÃY KẾT NỐI VỚI <span>BVOTE!</span>
                         </h2>
-                        <button>LIÊN HỆ 
-                            <img src="../../../dist/images/button-arrow.svg" alt="" />
-                        </button>
+                        <a href="../contact.html">
+                            <button>LIÊN HỆ 
+                                <img src="../../../dist/images/button-arrow.svg" alt=""/>
+                            </button>
+                        </a>
                     </div> 
                 </div>
             </div>
