@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 31" width="31" height="31">
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="15.497" y1="25.001" x2="15.497" y2="5.997">
+			<stop offset="0" stop-color="#0fe692"  />
+			<stop offset="1" stop-color="#2fbf87"  />
+		</linearGradient>
+		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="15.496" y1="31.003" x2="15.496" y2="-0.004">
+			<stop offset="0" stop-color="#0fe692"  />
+			<stop offset="1" stop-color="#2fbf87"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { opacity: 0.349;fill: url(#grd1) } 
+		.shp1 { opacity: 0.251;fill: url(#grd2) } 
+	</style>
+	<g id="NOI DUNG">
+		<g id="DU AN">
+			<path id="Ellipse 1 copy" class="shp0" d="M15.5 6C20.74 6 25 10.25 25 15.5C25 20.75 20.74 25 15.5 25C10.25 25 6 20.75 6 15.5C6 10.25 10.25 6 15.5 6Z" />
+			<path id="Ellipse 1 copy 3" class="shp1" d="M15.5 0C24.06 0 31 6.94 31 15.5C31 24.06 24.06 31 15.5 31C6.94 31 0 24.06 0 15.5C0 6.94 6.94 0 15.5 0Z" />
+		</g>
+	</g>
+</svg>

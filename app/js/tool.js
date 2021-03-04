@@ -1,7 +1,6 @@
 @import '/tool/jquery-3.2.1.js';
 @import '/tool/aos.js';
 @import '/tool/bootstrap.js';
-@import '/tool/slick.js';
 @import '/tool/ImagesFrame.js';
 @import '/tool/bs-collapse.js';
 @import '/tool/bs-tab.js';

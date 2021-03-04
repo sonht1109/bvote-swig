@@ -49,55 +49,7 @@ $(document).ready(function () {
             $(".toggle-search i").removeClass('fa-search').addClass('fa-times')
         }
     })
-    $(".bs-slide").slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        arrows: true,
-        centerMode: true,
-        centerPadding: '0',
-        dots: true,
-        fade: false,
-        autoplay: false,
-        infinite: true,
-        draggable: false,
-        swipeToSlide: true,
-        touchMove: true,
-        swipe: true,
-        nextArrow: '.next_caro',
-        prevArrow: '.prev_caro',
-        responsive: [{
-            breakpoint: 1200,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1
-            }
-        },
-        {
 
-            breakpoint: 767,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1
-            }
-        },
-
-
-        {
-            breakpoint: 550,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-        },
-
-        {
-            breakpoint: 479,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }]
-    });
     $(".structure-icon").mouseenter((e) => {
         $('.structure-detail').removeClass().addClass('structure-detail')
         let className = $(e.target).attr('class').split(' ')[0]
@@ -109,4 +61,25 @@ $(document).ready(function () {
         $('.structure-detail').removeClass().addClass('structure-detail')
         $('.structure-text').removeClass('disappear')
     })
+
+    $('#bs-slide').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+    });
+
+    $('#project-slide').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        arrows: false,
+        dots: true,
+    });
+    $('#customer-slide').slick({
+        infinite: true,
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        arrows: true,
+        dots: false,
+    });
 });

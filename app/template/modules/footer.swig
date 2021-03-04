@@ -1,4 +1,40 @@
 <footer id="footer">
+    <section class="section-customer">
+        <div id="customer-slide">
+            <div class="customer-slide-item">
+              <img src="../../dist//images/customer-1.png" alt="" />
+            </div>
+            <div class="customer-slide-item">
+              <img src="../../dist//images/customer-2.png" alt="" />
+            </div>
+            <div class="customer-slide-item">
+              <img src="../../dist//images/customer-3.png" alt="" />
+            </div>
+            <div class="customer-slide-item">
+              <img src="../../dist//images/customer-1.png" alt="" />
+            </div>
+            <div class="customer-slide-item">
+              <img src="../../dist//images/customer-2.png" alt="" />
+            </div>
+            <div class="customer-slide-item">
+              <img src="../../dist//images/customer-3.png" alt="" />
+            </div>
+            <div class="customer-slide-item">
+              <img src="../../dist//images/customer-1.png" alt="" />
+            </div>
+            <div class="customer-slide-item">
+              <img src="../../dist//images/customer-2.png" alt="" />
+            </div>
+            <div class="customer-slide-item">
+              <img src="../../dist//images/customer-3.png" alt="" />
+            </div>
+            <div class="customer-slide-item">
+              <img src="../../dist//images/customer-1.png" alt="" />
+            </div>
+          </div>
+        </div>
+    </section>
+
     <section class="section-contact">
         <div class="bs-container">
             <div class="bs-row">
