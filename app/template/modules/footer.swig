@@ -3,36 +3,39 @@
     <div class="bs-container">
       <div class="bs-row">
         <div class="module module-customer">
+          <div class="box-shadow">
+            <img  src='../../../dist/images/customer-box-shadow.png' />
+          </div>
           <div id="customer-slide">
             <div class="customer-slide-item">
-              <img src="../../dist//images/customer-1.png" alt="" />
+              <img src="../../../dist//images/customer-1.png" alt="" />
             </div>
             <div class="customer-slide-item">
-              <img src="../../dist//images/customer-2.png" alt="" />
+              <img src="../../../dist//images/customer-2.png" alt="" />
             </div>
             <div class="customer-slide-item">
-              <img src="../../dist//images/customer-3.png" alt="" />
+              <img src="../../../dist//images/customer-3.png" alt="" />
             </div>
             <div class="customer-slide-item">
-              <img src="../../dist//images/customer-1.png" alt="" />
+              <img src="../../../dist//images/customer-1.png" alt="" />
             </div>
             <div class="customer-slide-item">
-              <img src="../../dist//images/customer-2.png" alt="" />
+              <img src="../../../dist//images/customer-2.png" alt="" />
             </div>
             <div class="customer-slide-item">
-              <img src="../../dist//images/customer-3.png" alt="" />
+              <img src="../../../dist//images/customer-3.png" alt="" />
             </div>
             <div class="customer-slide-item">
-              <img src="../../dist//images/customer-1.png" alt="" />
+              <img src="../../../dist//images/customer-1.png" alt="" />
             </div>
             <div class="customer-slide-item">
-              <img src="../../dist//images/customer-2.png" alt="" />
+              <img src="../../../dist//images/customer-2.png" alt="" />
             </div>
             <div class="customer-slide-item">
-              <img src="../../dist//images/customer-3.png" alt="" />
+              <img src="../../../dist//images/customer-3.png" alt="" />
             </div>
             <div class="customer-slide-item">
-              <img src="../../dist//images/customer-1.png" alt="" />
+              <img src="../../../dist//images/customer-1.png" alt="" />
             </div>
           </div>
         </div>
