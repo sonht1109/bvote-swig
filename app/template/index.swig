@@ -33,82 +33,88 @@
         </div>
         <div class="module-intro-yt">
           <img src="../../dist/images/introduce-yt.png" />
-          <img class="intro-yt-circle" src="../../dist/images/introduce-yt-circle.png" />
+          <div class="intro-yt-circle">
+            <img src="../../dist/images/introduce-yt-circle.png" />
+            <a class="intro-yt-icon" href="#">
+              <img src="../../dist/images/youtube-icon.png" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <section class="section-event">
-    <div class="event-img">
-      <img src="../../dist/images/event-miss.png" alt="" />
-    </div>
-    <div class="module module-event">
-      <div class="module-title">
-        <h2 class="title">
-          SỰ KIỆN NỔI BẬT
-        </h2>
-        <p>Boy desirous families prepared gay reserved add ecstatic say. Replied joy age visitor nothing cottage.</p>
+    <div class="event-wrapper">
+      <div class="event-img">
+        <img src="../../dist/images/event-miss.png" alt="" />
       </div>
-      <div class="module-content">
-        <div id="bs-slide">
-          <div class="item">
-            <img src="../../dist/images/event-miss-1.png" alt="" />
-            <div class="event-vote">
-              <div class="vote-button">
-                <a href="#">Bình chọn</a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="../../dist/images/event-miss-2.png" alt="" />
-            <div class="event-vote">
-              <div class="vote-button">
-                <a href="#">Bình chọn</a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="../../dist/images/event-miss-3.png" alt="" />
-            <div class="event-vote">
-              <div class="vote-button">
-                <a href="#">Bình chọn</a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="../../dist/images/event-miss-4.png" alt="" />
-            <div class="event-vote">
-              <div class="vote-button">
-                <a href="#">Bình chọn</a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="../../dist/images/event-miss-1.png" alt="" />
-            <div class="event-vote">
-              <div class="vote-button">
-                <a href="#">Bình chọn</a>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <img src="../../dist/images/event-miss-2.png" alt="" />
-            <div class="event-vote">
-              <div class="vote-button">
-                <a href="#">Bình chọn</a>
-              </div>
-            </div>
-          </div>
+      <div class="module module-event">
+        <div class="module-title">
+          <h2 class="title">
+            SỰ KIỆN NỔI BẬT
+          </h2>
+          <p>Boy desirous families prepared gay reserved add ecstatic say. Replied joy age visitor nothing cottage.</p>
         </div>
-        <div class="bottom-content">
-          <h3>Mister Việt Nam 2019</h3>
-          <p><span>Bắt đầu</span> : 16/06/2019</p>
-          <p><span>Kết thúc</span> : 28/06/2019</p>
+        <div class="module-content">
+          <div id="bs-slide">
+            <div class="item">
+              <img src="../../dist/images/event-miss-1.png" alt="" />
+              <div class="event-vote">
+                <div class="vote-button">
+                  <a href="#">Bình chọn</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="../../dist/images/event-miss-2.png" alt="" />
+              <div class="event-vote">
+                <div class="vote-button">
+                  <a href="#">Bình chọn</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="../../dist/images/event-miss-3.png" alt="" />
+              <div class="event-vote">
+                <div class="vote-button">
+                  <a href="#">Bình chọn</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="../../dist/images/event-miss-4.png" alt="" />
+              <div class="event-vote">
+                <div class="vote-button">
+                  <a href="#">Bình chọn</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="../../dist/images/event-miss-1.png" alt="" />
+              <div class="event-vote">
+                <div class="vote-button">
+                  <a href="#">Bình chọn</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="../../dist/images/event-miss-2.png" alt="" />
+              <div class="event-vote">
+                <div class="vote-button">
+                  <a href="#">Bình chọn</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-content">
+            <h3>Mister Việt Nam 2019</h3>
+            <p><span>Bắt đầu</span> : 16/06/2019</p>
+            <p><span>Kết thúc</span> : 28/06/2019</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
-
   <section class="section-why">
     <div class="bs-container">
       <div class="bs-row">
@@ -212,6 +218,9 @@
                 <p class="text-block-chain structure-text">VSA Blockchain System</p>
               </div>
             </div>
+            <div class="module-content_responsive">
+              <img src="../../dist/images/structure-responsive.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -273,6 +282,68 @@
                 </div>
               </div>
             </div>
+            <div class="module-content_responsive bs-collapse">
+              <div class="road-map_item collapse-item">
+                <div class="road-map-title collapse-head">
+                  <div class="dot">
+                    <img src="../../dist/images/dot-box-shadow.svg" />
+                  </div>
+                  <div class="date">
+                    <span>24/08/2019</span>
+                  </div>
+                </div>
+                <div class="road-map-detail collapse-content">
+                  Him rendered may attended concerns jennings reserved now. Sympathize did now
+                  preference unpleasing mrs few. Mrs for hour game room want are fond dare. For
+                  detract charmed add talking age. Shy resolution instrument unreserved man few.
+                </div>
+              </div>
+              <div class="road-map_item collapse-item">
+                <div class="road-map-title collapse-head">
+                  <div class="dot">
+                    <img src="../../dist/images/dot-box-shadow.svg" />
+                  </div>
+                  <div class="date">
+                    <span>24/08/2019</span>
+                  </div>
+                </div>
+                <div class="road-map-detail collapse-content">
+                  Him rendered may attended concerns jennings reserved now. Sympathize did now
+                  preference unpleasing mrs few. Mrs for hour game room want are fond dare. For
+                  detract charmed add talking age. Shy resolution instrument unreserved man few.
+                </div>
+              </div>
+              <div class="road-map_item collapse-item">
+                <div class="road-map-title collapse-head">
+                  <div class="dot">
+                    <img src="../../dist/images/dot-box-shadow.svg" />
+                  </div>
+                  <div class="date">
+                    <span>24/08/2019</span>
+                  </div>
+                </div>
+                <div class="road-map-detail collapse-content">
+                  Him rendered may attended concerns jennings reserved now. Sympathize did now
+                  preference unpleasing mrs few. Mrs for hour game room want are fond dare. For
+                  detract charmed add talking age. Shy resolution instrument unreserved man few.
+                </div>
+              </div>
+              <div class="road-map_item collapse-item">
+                <div class="road-map-title collapse-head">
+                  <div class="dot">
+                    <img src="../../dist/images/dot-box-shadow.svg" />
+                  </div>
+                  <div class="date">
+                    <span>24/08/2019</span>
+                  </div>
+                </div>
+                <div class="road-map-detail collapse-content">
+                  Him rendered may attended concerns jennings reserved now. Sympathize did now
+                  preference unpleasing mrs few. Mrs for hour game room want are fond dare. For
+                  detract charmed add talking age. Shy resolution instrument unreserved man few.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -317,7 +388,9 @@
         </div>
         <div class="bs-col md-50">
           <div class="laptop">
-            <img src="../../dist/images/benefits-laptop.png" alt="" />
+            <a href="#">
+              <img src="../../dist/images/benefits-laptop.png" alt="" />
+            </a>
           </div>
         </div>
       </div>

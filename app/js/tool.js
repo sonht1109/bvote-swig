@@ -7,3 +7,4 @@
 @import '/tool/bs-modal.js';
 @import '/tool/bs-menu.js';
 @import '/tool/bs-tooltip.js';
+@import '/tool/slick.js';

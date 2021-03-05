@@ -233,8 +233,8 @@
           .menu-list {
             .menu-list__item {
               float: left;
-              padding-left: 12px;
-              padding-top: 25px;
+              padding-left: 15px;
+              padding-top: 30px;
 
               .menu-list__link {
                 display: block;
@@ -304,36 +304,38 @@
       }
     }
     .bs-container-fluid {
-      max-width: 1200px;
-      margin: 0 auto;
+      max-width: 1440px;
+      margin: 20px auto 0;
       position: relative;
-
       .banner-left {
         position: absolute;
+        top: -20px;
         left: 0;
-        max-width: 43%;
+        max-width: 40%;
         color: white;
+        margin-left: 80px;
         .above-title-block {
           height: 34px;
           width: 114px;
           color: #63fadd;
           font-size: 14px;
+          font-family: 'Josefin Sans';
           border: 1px solid white;
           background-color: #370084;
           .flex-center();
-          margin-bottom: 20px;
-          margin-top: 120px;
+          margin-bottom: 14px;
+          margin-top: 125px;
         }
         .title-block {
           position: relative;
-          padding: 25px;
+          padding: 26px 26px 15px;
           margin-bottom: 30px;
           .custom-font();
           .angle {
             position: absolute;
             border: 1px solid white;
-            width: 40px;
-            height: 20px;
+            width: 45px;
+            height: 25px;
           }
           .top-left {
             top: 0;
@@ -359,14 +361,18 @@
             border-top-width: 0px;
             border-left-width: 0px;
           }
+          h3, h4{
+            margin: 0;
+          }
           h3 {
             font-size: 50px;
             font-weight: 700;
             margin: 0;
-            text-align: center;
+            text-align: left;
+            margin: 10px 0;
           }
           h4 {
-            font-size: 32px;
+            font-size: 36px;
             font-weight: 700;
             // text-align: center;
           }
@@ -374,6 +380,7 @@
         p {
           font-style: italic;
           font-size: 16px;
+          line-height: 24px;
           .custom-font();
         }
       }
@@ -405,23 +412,44 @@
         }
       }
     }
-    // .header-nav {
-    //     .nav-content {
-    //         .nav {
-    //             .menu {
-    //                 .menu-list {
-    //                     .menu-list__item {
-    //                         padding-left: 44px;
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
+    .header-nav {
+        .nav-content {
+          .logo{
+            width: 110px;
+          }
+            .nav {
+                .menu {
+                    .menu-list {
+                        .menu-list__item {
+                            padding-left: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header-banner{
+      .bs-container-fluid{
+        .banner-left{
+          margin-left: 40px;
+          .above-title-block{
+            margin-top: 80px;
+          }
+          .title-block{
+            h3{
+              font-size: 36px;
+            }
+            h4{
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 768px) {
+@media (max-width: 991px) {
   #header {
     &.scrolled {
       .header-nav {
@@ -446,11 +474,12 @@
           .menu {
             .menu-list {
               .menu-list__item {
-                padding-left: 28px;
+                padding-left: 0px;
                 padding-top: 18px;
 
                 .menu-list__link {
                   font-size: 13px;
+                  padding: 10px;
                 }
               }
             }
@@ -458,8 +487,37 @@
         }
       }
     }
+    .header-banner{
+      .bs-container-fluid{
+        .banner-left{
+          margin-left: 20px;
+          p{
+            font-size: 14px;
+            line-height: 20px;
+          }
+          .above-title-block{
+            margin-top: 30px;
+          }
+          .title-block{
+            padding: 10px;
+            margin-bottom: 20px;
+            h3{
+              font-size: 30px;
+            }
+            h4{
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+    #header-wave{
+      height: 80px;
+      transform: translateY(-80px);
+    }
   }
 }
+
 @media only screen and (max-width: 767px) {
   #header {
     .header-top {
