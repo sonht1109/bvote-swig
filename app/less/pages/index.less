@@ -20,9 +20,6 @@
 button {
   transition: 0.3s;
 }
-button:hover {
-  transform: translateY(-5px);
-}
 
 #main {
   .section-intro {
@@ -125,6 +122,7 @@ button:hover {
         #bs-slide{
           transform: skew(25deg);
           margin-left: 15px;
+          position: relative;
           .slick-arrow{
             transform: skew(-25deg);
             background-color: transparent;
@@ -655,6 +653,9 @@ button:hover {
         .group-button {
           margin: 15px 0 40px 0;
           button {
+            &:hover {
+              transform: translateY(-5px);
+            }
             color: #01234c;
             font-size: 14px;
             width: 200px;

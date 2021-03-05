@@ -1,5 +1,5 @@
-.text-main-color{
-    color: #00d166;
+.text-main-color {
+  color: #00d166;
 }
 
 #footer {
@@ -7,6 +7,57 @@
   background-image: url("../../../../dist/images/footer-bg.png");
   color: #fff;
   text-align: center;
+  position: relative;
+  .section-customer {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    .module-customer {
+      width: 100%;
+      padding: 30px 50px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 30px 0 -15px rgba(4,183,209, 0.2), 0 60px 0 -30px rgba(4,183,209, 0.2), 0 90px 0 -45px rgba(4,183,209, 0.2);
+      #customer-slide {
+        width: 100%;
+        .slick-arrow {
+          width: 51px;
+          height: 51px;
+          border-radius: 25px;
+          z-index: 5;
+          background-color: rgba(4, 31, 63, 0.2);
+          &::before {
+            color: #53ffd0;
+            font-size: 35px;
+            line-height: 0.4;
+            font-weight: lighter;
+          }
+        }
+        .slick-prev {
+          left: -15px;
+          &::before {
+            content: "<";
+          }
+        }
+        .slick-next {
+          right: -15px;
+          &::before {
+            content: ">";
+          }
+        }
+        .customer-slide-item {
+          margin: 0 10px;
+          border-radius: 5px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 120px;
+          border: 1px solid #0fe692;
+        }
+      }
+    }
+  }
   .section-contact {
     background-image: url("../../../../dist/images/footer-stars.png");
     background-size: cover;
@@ -44,6 +95,9 @@
         font-size: 16px;
         font-family: "Josefin Sans";
         margin-top: 20px;
+        &:hover {
+          transform: translateY(-5px);
+        }
         img {
           position: absolute;
           top: 50%;
@@ -66,13 +120,15 @@
         display: flex;
         justify-content: space-between;
         padding: 0 20px;
-        a{
-            color: white;
+        a {
+          color: white;
           text-decoration: underline;
-          &:hover {.text-main-color()}
+          &:hover {
+            .text-main-color();
+          }
         }
         .logo {
-            margin-bottom: 22px;
+          margin-bottom: 22px;
           img {
             width: 220px;
             height: auto;
@@ -80,9 +136,11 @@
           }
         }
       }
-      .address-right{
-        span{.text-main-color()}
+      .address-right {
+        span {
+          .text-main-color();
         }
+      }
     }
   }
 }

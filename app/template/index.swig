@@ -105,10 +105,10 @@
           <p><span>Bắt đầu</span> : 16/06/2019</p>
           <p><span>Kết thúc</span> : 28/06/2019</p>
         </div>
+      </div>
     </div>
-  </div>
   </section>
-  
+
   <section class="section-why">
     <div class="bs-container">
       <div class="bs-row">
