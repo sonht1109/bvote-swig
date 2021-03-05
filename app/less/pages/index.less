@@ -91,23 +91,149 @@ button:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #111033;
-    .bs-container-fluid {
-      padding: 0;
-      // .event-miss-img{
-      //   transform: skew(25deg) translateX(-25%);
-      //   img{
-      //     transform: skew(-25deg) translateX(25%);
-      //   }
-      // }
-      .module-event {
-        flex-grow: 1;
-        // transform: skew(25deg);
-        background-color: red;
-      }
-      .item {
-        width: 200px;
-        height: 200px;
+    display: flex;
+    .module-title{
+      padding-left: 35px;
+      .title, p{
+        .utm-font();
         color: white;
+      }
+      .title{
+        margin-top: 84px;
+        font-weight: bold;
+      }
+      p{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        font-style: italic;
+        font-size: 15px;
+        margin-left: 10px;
+      }
+    }
+    .module-event{
+      width: calc(100% - 450px);
+      transform: translateX(-100px) skew(25deg);
+      .module-title{
+        transform: skew(-25deg);
+        .title{
+          text-align: start;
+        }
+      }
+      .module-content{
+        width: 100%;
+        transform: skew(-25deg);
+        #bs-slide{
+          transform: skew(25deg);
+          margin-left: 15px;
+          .slick-arrow{
+            transform: skew(-25deg);
+            background-color: transparent;
+            border-radius: 50%;
+            border: 1px solid #0fe692;
+            width: 30px;
+            height: 30px;
+            &::before{
+              color: #0fe692!important;
+              line-height: 0.5!important;
+            }
+          }
+          .slick-prev{
+            top: -55px;
+            right: -28px;
+            &::before{
+              content: '<';
+            }
+          }
+          .slick-next{
+            top: -55px;
+            right: -68px;
+            &::before{
+              content: '>';
+            }
+          }
+          .slick-prev::before, .slick-next::before{
+            color: transparent;
+          }
+          .slick-arrow:hover{
+            background-image: linear-gradient(0deg, #00e0ef 0%, #0fe692 100%);
+            &::before{
+              color: white!important;
+            }
+          }
+          .item{
+            // margin: 0 5px
+            color: white;
+            position: relative;
+            border-radius: 5px;
+            overflow: hidden;
+            img{
+              transform: skew(-25deg) translateX(-38px);
+            }
+            .event-vote{
+              position: absolute;
+              top: 0; left: 0; right: 0; bottom: 0;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              opacity: 0;
+              // transform: translateX(5px);
+              .vote-button{
+                // transform: skew(25deg);
+                background-image: linear-gradient(90deg, #0fe591 0%, #00dfef 100%);
+                width: 100%;
+                text-align: center;
+                padding: 10px 0;
+                a{
+                  transform: skew(-25deg);
+                  display: inline-block;
+                  border-radius: 14px;
+                  margin: 0;
+                  padding: 6px 20px;
+                  background-color: white;
+                  color: #00234f;
+                  font-size: 17px;
+                }
+              }
+              &:hover{
+                opacity: 1;
+              }
+            }
+          }
+        }
+        .bottom-content{
+          display: flex;
+          justify-content: space-around;
+          color: white;
+          align-items: center;
+          padding: 40px 0;
+          h3, p{
+            margin: 0;
+            .utm-font();
+          }
+          h3{
+            margin-left: 80px;
+            margin-right: 20px;
+            font-size: 21px;
+            font-weight: bold;
+          }
+          p{
+            position: relative;
+            font-size: 15px;
+            span{
+              text-decoration: underline;
+            }
+            :after{
+              content: '';
+              position: absolute;
+              top: calc(50% - 4px);
+              left: -20px;
+              width: 8px;
+              height: 8px;
+              border-radius: 50%;
+              background-image: linear-gradient(0deg, #00e0ef 0%, #0fe692 100%);;
+            }
+          }
+        }
       }
     }
   }
@@ -561,7 +687,10 @@ button:hover {
     }
   }
   .section-project {
+    // background-color: #08042c;
     background-image: url("../../../dist/images/project-bg.png");
+    // background-size: cover;
+    background-position: top;
     padding: 200px 0;
     .module-project {
       .module-title {
