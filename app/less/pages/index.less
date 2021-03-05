@@ -22,13 +22,15 @@ button {
 }
 .bs-collapse {
   max-width: 100%;
-  .collapse-item.active{
-    .collapse-head, .collapse-head:hover{
+  .collapse-item.active {
+    .collapse-head,
+    .collapse-head:hover {
       background-color: transparent;
     }
   }
-  .collapse-item{
-    .collapse-head, .collapse-head:hover{
+  .collapse-item {
+    .collapse-head,
+    .collapse-head:hover {
       background-color: transparent;
       width: 100%;
     }
@@ -670,7 +672,7 @@ button {
           left: 85%;
         }
       }
-      .module-content_responsive{
+      .module-content_responsive {
         display: none;
       }
     }
@@ -998,7 +1000,7 @@ button {
     }
     .section-road-map {
       .module-road-map {
-        .module-content_responsive{
+        .module-content_responsive {
           display: none;
         }
         .module-content {
@@ -1097,7 +1099,7 @@ button {
       padding-top: 100px;
       padding-bottom: 200px;
       .module-road-map {
-        .module-content{
+        .module-content {
           display: none;
         }
         .module-content_responsive {
@@ -1109,7 +1111,7 @@ button {
               .flex-center();
               justify-content: flex-start;
               .dot {
-                transform: translateX(-10px);
+                transform: translateX(-50%);
                 width: 20px;
                 height: 20px;
                 background-image: linear-gradient(
@@ -1123,8 +1125,8 @@ button {
                 margin-right: 50px;
                 img {
                   position: absolute;
-                  top: 10px;
-                  left: 10px;
+                  top: 50%;
+                  left: 50%;
                   transform: translate(-50%, -50%) scale(0);
                   transition: 0.3s;
                 }
@@ -1134,6 +1136,8 @@ button {
                 border: 1px solid white;
                 transform: skew(25deg);
                 transition: 0.3s;
+                width: 100%;
+                .flex-center();
                 span {
                   font-size: 16px;
                   padding: 10px 24px;
@@ -1153,32 +1157,258 @@ button {
               box-shadow: 0 0 10px #0fe692;
             }
           }
-          .road-map_item.active{
-            .road-map-title{
-              .date{
+          .road-map_item.active {
+            .road-map-title {
+              .date {
                 border-color: #0fe692;
               }
-              .dot{
-                img{
+              .dot {
+                img {
                   transform: translate(-50%, -50%) scale(1);
                 }
               }
             }
           }
         }
-        .module-title{
+        .module-title {
           margin-bottom: 60px;
+        }
+      }
+    }
+    .section-benefits {
+      .bs-container {
+        .module-title {
+          .title,
+          p {
+            text-align: center;
+          }
+          .group-button {
+            .flex-center();
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  #main {
+    .title {
+      font-size: 30px;
+    }
+    .section-intro {
+      padding-bottom: 40px;
+      .module-intro-title {
+        h2 {
+          font-size: 30px;
+        }
+      }
+    }
+    .section-event {
+      .event-wrapper {
+        .module-event {
+          .module-title {
+            padding-left: 20px;
+            .title {
+              margin-top: 60px;
+            }
+            p {
+              font-size: 14px;
+            }
+          }
+          .module-content {
+            #bs-slide {
+              .slick-prev {
+                left: 82%;
+              }
+            }
+            .bottom-content {
+              flex-direction: column;
+              h3 {
+                margin: 0;
+                margin-bottom: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .section-why {
+      .module-why {
+        padding: 60px 0;
+        .module-title {
+          .title {
+            span {
+              font-size: 40px;
+              line-height: 50px;
+            }
+          }
+          p {
+            font-size: 14px;
+            line-height: 20px;
+          }
+        }
+        .module-content {
+          .why-item {
+            .why-item-content {
+              h4 {
+                font-size: 16px;
+                margin: 0 10px 10px;
+              }
+              p {
+                font-size: 12px;
+                line-height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .section-structure {
+      padding-bottom: 60px;
+      svg {
+        height: 80px;
+      }
+      .module-structure {
+        .module-title {
+          .title {
+            margin: 40px 0 60px;
+            font-size: 30px;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+    .section-road-map{
+      padding-top: 40px;
+      .module-road-map{
+        .module-content_responsive{
+          margin-left: 20px;
+          .road-map_item{
+            .road-map-title{
+              .dot{
+                width: 14px;
+                height: 14px;
+              }
+            }
+            .road-map-detail{
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+    .section-benefits{
+      padding: 80px 0 40px;
+      .bs-container{
+        .module-title{
+          .title{
+            line-height: 30px;
+          }
+        }
+      }
+    }
+    .section-project{
+      padding: 120px 0;
+      .module-project{
+        .module-content{
+          .project-tab{
+            .tab-container{
+              .tab-control{
+                margin-bottom: 20px;
+              }
+              .tab-content{
+                #tab2{
+                  #project-slide{
+                    .slick-dots{
+                      bottom: -20px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 480px){
+  #main{
+    .section-project{
+      .module-project{
+        .module-content{
+          .bs-tab{
+            .tab-container{
+              .tab-control{
+                .control__show{
+                  .box-shadow{
+                    display: none
+                  };
+                }
+                .control-list{
+                  background-color: #08940c;
+                  .control-list__item{
+                    border: none;
+                    img{
+                      display: none;
+                    }
+                    &:hover{border: none;}
+                    &:after{
+                      width: 0; height: 0;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width: 424px){
+  #main{
+    .title{
+      font-size: 26px;
+    }
+    .section-intro{
+      .module-intro-title{
+        margin-bottom: 20px;
+        h2{
+          .title();
+        }
+        img.line{
+          display: none;
+        }
+      }
+    }
+    .section-event{
+      .event-wrapper{
+        .module-event{
+          .module-content{
+            #bs-slide{
+              .slick-prev{
+                left: 78%;
+              }
+            }
+          }
         }
       }
     }
     .section-benefits{
       .bs-container{
         .module-title{
-          .title, p{
-            text-align: center;
+          .title{
+            .title();
+            img{
+              display: none;
+            }
           }
           .group-button{
-            .flex-center();
+            button{
+              font-size: 12px;
+            }
           }
         }
       }

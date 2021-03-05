@@ -82,12 +82,12 @@ $(document).ready(function () {
                 }
             },
             {
-                breakpoint: 768,
+                breakpoint: 540,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3
+                    slidesToShow: 2,
+                    slidesToScroll: 2
                 }
-            }
+            },
         ]
     });
 

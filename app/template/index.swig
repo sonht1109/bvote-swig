@@ -13,7 +13,7 @@
               <h2 class="intro-title-bvote"> BVOTE
                 <img src="../../dist/images/bvote-crown.svg" alt="" />
               </h2>
-              <img src="../../dist/images/intro-line.svg" alt="" />
+              <img class="line" src="../../dist/images/intro-line.svg" alt="" />
             </div>
             <div class="module-intro-content">
               <h4 class="intro-content-title">THƯƠNG HIỆU BÌNH CHỌN TRỰC TUYẾN UY TÍN</h4>

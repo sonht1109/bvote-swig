@@ -357,11 +357,12 @@
           .menu {
             .menu-list {
               .menu-list__item {
-                padding-left: 28px;
+                padding-left: 0px;
                 padding-top: 18px;
 
                 .menu-list__link {
                   font-size: 13px;
+                  padding: 10px;
                 }
               }
             }
@@ -421,6 +422,18 @@
       }
     }
 
+    &.scrolled {
+      .header-nav {
+        .nav-content {
+          .logo {
+            img {
+              width: 120px;
+            }
+          }
+        }
+      }
+    }
+
     .header-nav {
       padding-top: 10px;
       padding-bottom: 10px;
@@ -428,14 +441,14 @@
       .nav-content {
         .logo {
           img {
-            width: 232px;
+            width: 120px;
           }
         }
 
         .nav {
           .show__menu {
             display: block;
-            color: #fff;
+            color: #00c06b;
             font-size: 30px;
             position: absolute;
             right: 15px;
@@ -457,6 +470,13 @@
 
             &.active {
               transform: translateX(0);
+              .menu-list{
+                .menu-list__item{
+                  .menu-list__link{
+                    color: white;
+                  }
+                }
+              }
             }
 
             .close__menu {
