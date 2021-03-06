@@ -36,6 +36,9 @@ button {
     }
   }
 }
+.slick-track{
+  min-width: 100%;
+}
 
 #main {
   .section-intro {
@@ -728,9 +731,8 @@ button {
         }
       }
       .laptop {
-        display: flex;
         height: 100%;
-        align-items: center;
+        .flex-center();
         img {
           width: 100%;
           height: auto;
@@ -1009,6 +1011,25 @@ button {
             .road-map-detail {
               width: 250px;
               top: 80px;
+            }
+          }
+        }
+      }
+    }
+    .section-project{
+      .module-project{
+        .module-content{
+          .project-tab{
+            .tab-container{
+              .tab-content{
+                #tab2{
+                  #project-slide{
+                    .slide-item{
+                      // min-width: 30%;
+                    }
+                  }
+                }
+              }
             }
           }
         }
