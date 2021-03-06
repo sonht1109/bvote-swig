@@ -474,6 +474,15 @@
                 .menu-list__item{
                   .menu-list__link{
                     color: white;
+                    &:hover{
+                      &::after{
+                        background: transparent;
+                      }
+                    }
+                  }
+                  .menu-list__link.active, .menu-list__link:hover{
+                    color: #098235;
+                    background-color: white;
                   }
                 }
               }

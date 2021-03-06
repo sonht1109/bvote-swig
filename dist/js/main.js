@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    new WOW().init();
+
     AOS.init({
         once: true,
         offset: 0,
@@ -158,4 +160,5 @@ $(document).ready(function () {
             },
         ]
     });
+
 });

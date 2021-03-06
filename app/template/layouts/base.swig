@@ -10,7 +10,10 @@
     <link rel="stylesheet" type="text/css" href="css/tool.min.css" />
     <link rel="stylesheet" type="text/css" href="css/main.min.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     {% block customStyles %}{% endblock %}
 </head>
 <body class="{% block bodyClass %}{% endblock %}">

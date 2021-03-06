@@ -11,9 +11,9 @@
             <div class="module-intro-title">
               <h2>GIỚI THIỆU </h2>
               <h2 class="intro-title-bvote"> BVOTE
-                <img src="../../dist/images/bvote-crown.svg" alt="" />
+                <img class="wow rotateIn" src="../../dist/images/bvote-crown.svg" />
               </h2>
-              <img class="line" src="../../dist/images/intro-line.svg" alt="" />
+              <img class="line wow slideInRight" src="../../dist/images/intro-line.svg" alt="" />
             </div>
             <div class="module-intro-content">
               <h4 class="intro-content-title">THƯƠNG HIỆU BÌNH CHỌN TRỰC TUYẾN UY TÍN</h4>
@@ -45,12 +45,12 @@
   </section>
   <section class="section-event">
     <div class="event-wrapper">
-      <div class="event-img">
+      <div class="event-img wow slideInLeft">
         <img src="../../dist/images/event-miss.png" alt="" />
       </div>
       <div class="module module-event">
         <div class="module-title">
-          <h2 class="title">
+          <h2 class="title wow slideInRight">
             SỰ KIỆN NỔI BẬT
           </h2>
           <p>Boy desirous families prepared gay reserved add ecstatic say. Replied joy age visitor nothing cottage.</p>
@@ -107,7 +107,7 @@
             </div>
           </div>
           <div class="bottom-content">
-            <h3>Mister Việt Nam 2019</h3>
+            <h3 class="wow fadeIn">Mister Việt Nam 2019</h3>
             <p><span>Bắt đầu</span> : 16/06/2019</p>
             <p><span>Kết thúc</span> : 28/06/2019</p>
           </div>
@@ -120,8 +120,8 @@
       <div class="bs-row">
         <div class="module module-why">
           <div class="module-title">
-            <h2 class="title">
-              TẠI SAO NÊN SỬ DỤNG <span>BVOTE ?</span>
+            <h2 class="title wow slideInRight">
+              TẠI SAO NÊN SỬ DỤNG <span >BVOTE ?</span>
             </h2>
             <img src="../../dist/images/why-line.png" alt="" />
             <div class="bs-col md-95">
@@ -131,7 +131,7 @@
             </div>
           </div>
           <div class="module-content">
-            <div class="why-item">
+            <div class="why-item wow slideInRight">
               <div class="why-item-inner">
                 <div class="why-item-icon">
                   <img src="../../dist/images/why-icon-1-inactive.svg" alt="" class="inactive" />
@@ -145,7 +145,7 @@
                 </div>
               </div>
             </div>
-            <div class="why-item">
+            <div class="why-item wow slideInDown">
               <div class="why-item-inner">
                 <div class="why-item-icon">
                   <img src="../../dist/images/why-icon-2-inactive.svg" alt="" class="inactive" />
@@ -158,7 +158,7 @@
                 </div>
               </div>
             </div>
-            <div class="why-item">
+            <div class="why-item wow slideInLeft">
               <div class="why-item-inner">
                 <div class="why-item-icon">
                   <img src="../../dist/images/why-icon-3-inactive.svg" alt="" class="inactive" />
@@ -186,7 +186,7 @@
         <div class="bs-col">
           <div class="module module-structure">
             <div class="module-title">
-              <h2 class="title">
+              <h2 class="title wow slideInRight">
                 HỆ THỐNG CẤU THÀNH LÊN BVOTE
               </h2>
             </div>
@@ -201,24 +201,24 @@
                     của các sự kiện bình chọn đánh giá</span>
                 </div>
                 <img src="../../dist/images/structure.png" alt="" />
-                <img class="app-client structure-icon structure-icon-1" src="../../dist/images/app-client.png" alt=""
+                <img class="app-client structure-icon structure-icon-1 wow pulse" src="../../dist/images/app-client.png" alt="" data-wow-iteration="infinite"
                   data-title="App Client" />
-                <img class="web-client structure-icon structure-icon-2" src="../../dist/images/web-client.png" alt=""
+                <img class="web-client structure-icon structure-icon-2 wow pulse" src="../../dist/images/web-client.png" alt="" data-wow-iteration="infinite"
                   data-title="Web Client" />
-                <img class="api-system structure-icon structure-icon-3" src="../../dist/images/api-system.png" alt=""
+                <img class="api-system structure-icon structure-icon-3 wow pulse" src="../../dist/images/api-system.png" alt="" data-wow-iteration="infinite"
                   data-title="API System" />
-                <img class="kyc structure-icon structure-icon-4" src="../../dist/images/kyc.png" alt=""
+                <img class="kyc structure-icon structure-icon-4 wow pulse" src="../../dist/images/kyc.png" alt="" data-wow-iteration="infinite"
                   data-title="KYC Blockchain system" />
-                <img class="block-chain structure-icon structure-icon-5" src="../../dist/images/block-chain.png" alt=""
+                <img class="block-chain structure-icon structure-icon-5 wow pulse" src="../../dist/images/block-chain.png" alt="" data-wow-iteration="infinite"
                   data-title="VSA Blockchain System" />
-                <p class="text-app-client structure-text">app client</p>
-                <p class="text-web-client structure-text">website client</p>
-                <p class="text-api-system structure-text">api system</p>
-                <p class="text-kyc structure-text">kyc blockchain system</p>
-                <p class="text-block-chain structure-text">VSA Blockchain System</p>
+                <p class="text-app-client structure-text wow fadeIn" data-wow-delay="0.5s">app client</p>
+                <p class="text-web-client structure-text wow fadeIn" data-wow-delay="0.5s">website client</p>
+                <p class="text-api-system structure-text wow fadeIn" data-wow-delay="0.5s">api system</p>
+                <p class="text-kyc structure-text wow fadeIn" data-wow-delay="0.5s">kyc blockchain system</p>
+                <p class="text-block-chain structure-text wow fadeIn" data-wow-delay="0.5s">VSA Blockchain System</p>
               </div>
             </div>
-            <div class="module-content_responsive">
+            <div class="module-content_responsive wow fadeIn">
               <img src="../../dist/images/structure-responsive.png" alt="" />
             </div>
           </div>
@@ -232,12 +232,12 @@
         <div class="bs-col">
           <div class="module module-road-map">
             <div class="module-title">
-              <h2 class="title">ROAD MAP</h2>
+              <h2 class="title wow slideInRight">ROAD MAP</h2>
               <p>Our team working hardly to make archive lorem ipsum dolor sit amet, consectetur amet,
                 consectetur adipiscing elit.</p>
             </div>
             <div class="module-content">
-              <div class="dot">
+              <div class="dot wow fadeIn" data-wow-delay="0.2s">
                 <img src="../../dist/images/dot-box-shadow.svg" alt="" />
                 <div class="date">
                   <span>24/08/2019</span>
@@ -248,7 +248,7 @@
                   detract charmed add talking age. Shy resolution instrument unreserved man few.
                 </div>
               </div>
-              <div class="dot">
+              <div class="dot wow fadeIn" data-wow-delay="0.4s">
                 <img src="../../dist/images/dot-box-shadow.svg" alt="" />
                 <div class="date">
                   <span>25/08/2019</span>
@@ -259,7 +259,7 @@
                   detract charmed add talking age. Shy resolution instrument unreserved man few.
                 </div>
               </div>
-              <div class="dot">
+              <div class="dot wow fadeIn" data-wow-delay="0.6s">
                 <img src="../../dist/images/dot-box-shadow.svg" alt="" />
                 <div class="date">
                   <span>26/08/2019</span>
@@ -270,7 +270,7 @@
                   detract charmed add talking age. Shy resolution instrument unreserved man few.
                 </div>
               </div>
-              <div class="dot">
+              <div class="dot wow fadeIn" data-wow-delay="0.8s">
                 <img src="../../dist/images/dot-box-shadow.svg" alt="" />
                 <div class="date">
                   <span>27/08/2019</span>
@@ -356,27 +356,27 @@
         <div class="bs-col md-50">
           <div class="module module-benefits">
             <div class="module-title">
-              <h2 class='title'>
+              <h2 class='title wow slideInRight'>
                 <img src="../../dist/images/benefits-line.svg" alt="" />
                 HIỆU QUẢ QUẢNG CÁO
               </h2>
               <p>Liên hệ BVote để đặt ngay Banner/Video quảng bá thương hiệu</p>
               <div class="group-button">
-                <button>ĐẶT BANNER</button>
-                <button>ĐẶT VIDEO</button>
+                <button class="wow bounce">ĐẶT BANNER</button>
+                <button class="wow bounce">ĐẶT VIDEO</button>
               </div>
             </div>
             <div class="module-content">
               <p>Quyền lợi hợp tác:</p>
               <div class="benefits-detail">
-                <span>- 100% video quảng cáo được xem.</span><br />
-                <span>- 100% video quảng cáo được xuất hiện bên cạnh nội dung sạch .</span><br />
-                <span>- Thống kê lượt hiển thị, lượt xem trên công nghệ Blockchain.</span><br />
-                <span>- Quảng cáo hiển thị đa thiết bị</span><br />
-                <span>- Phù hợp với mọi mục tiêu quảng cáo (Quảng bá thương hiệu, tạo tương tác, tăng
+                <span class="wow slideInRight">- 100% video quảng cáo được xem.</span><br />
+                <span class="wow slideInRight">- 100% video quảng cáo được xuất hiện bên cạnh nội dung sạch .</span><br />
+                <span class="wow slideInRight" >- Thống kê lượt hiển thị, lượt xem trên công nghệ Blockchain.</span><br />
+                <span class="wow slideInRight">- Quảng cáo hiển thị đa thiết bị</span><br />
+                <span class="wow slideInRight">- Phù hợp với mọi mục tiêu quảng cáo (Quảng bá thương hiệu, tạo tương tác, tăng
                   doanh số bán hàng).</span><br />
-                <span>- Phù hợp với mọi quy mô doanh nghiệp</span><br />
-                <span>- Không giới hạn độ dài video</span><br />
+                <span class="wow slideInRight">- Phù hợp với mọi quy mô doanh nghiệp</span><br />
+                <span class="wow slideInRight">- Không giới hạn độ dài video</span><br />
               </div>
               <p>
                 Note*: BVote chính là kênh quảng cáo banner/video thời đại số, hỗ trợ đắc lực cho các
@@ -402,10 +402,7 @@
         <div class="bs-col">
           <div class="module module-project">
             <div class="module-title">
-              <h2 class="title">DỰ ÁN - BVOTE</h2>
-              <!-- tab -->
-
-              <!-- end tab -->
+              <h2 class="title wow slideInRight">DỰ ÁN - BVOTE</h2>
             </div>
             <div class="module-content">
               <div class="bs-tab project-tab">

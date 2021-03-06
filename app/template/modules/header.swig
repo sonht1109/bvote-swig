@@ -95,14 +95,14 @@
             </div>
             <div class="bs-container-fluid">
                 <div class="banner-left">
-                    <div class="above-title-block">Đang diễn ra</div>
+                    <div class="above-title-block wow flash" data-wow-duration="1.5s" data-wow-iteration="infinite" >Đang diễn ra</div>
                     <div class="title-block">
                         <div class="angle top-left"></div>
                         <div class="angle top-right"></div>
                         <div class="angle bottom-left"></div>
                         <div class="angle bottom-right"></div>
-                        <h3>HOA KHÔI ĐẠI SỨ</h3>
-                        <h4>MÔI TRƯỜNG HẢI PHÒNG </h4>
+                        <h3 class="wow fadeIn" data-wow-duration="0.75s" data-wow-delay="0.5s">HOA KHÔI ĐẠI SỨ</h3>
+                        <h4 class="wow fadeIn" data-wow-duration="0.75s" data-wow-delay="0.5s">MÔI TRƯỜNG HẢI PHÒNG </h4>
                     </div>
                     <p>Gay one the what walk then she. Demesne mention promise you justice arrived way. Or increasing to in especially inquietude companions acceptance admiration. Outweigh it families distance wandered</p>
                 </div>

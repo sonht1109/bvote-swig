@@ -723,6 +723,7 @@ button {
           margin: 25px 0;
           span {
             line-height: 26px;
+            display: inline-block;
           }
         }
       }
@@ -1111,9 +1112,9 @@ button {
               .flex-center();
               justify-content: flex-start;
               .dot {
-                transform: translateX(-50%);
-                width: 20px;
-                height: 20px;
+                transform: translateX(calc(-50% - 1px));
+                width: 14px;
+                height: 14px;
                 background-image: linear-gradient(
                   0deg,
                   #03a063 0%,
@@ -1287,8 +1288,8 @@ button {
           .road-map_item{
             .road-map-title{
               .dot{
-                width: 14px;
-                height: 14px;
+                width: 10px;
+                height: 10px;
               }
             }
             .road-map-detail{

@@ -8,3 +8,5 @@
 @import '/tool/bs-menu.js';
 @import '/tool/bs-tooltip.js';
 @import '/tool/slick.js';
+@import '/tool/wow.js';
+@import '/tool/wow.min.js';

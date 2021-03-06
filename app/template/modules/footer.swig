@@ -49,9 +49,9 @@
       <div class="bs-row">
         <div class="bs-col">
           <div class="module module-contact">
-            <h2>CHÚNG TÔI LUÔN SẴN SÀNG HÃY KẾT NỐI VỚI <span>BVOTE!</span>
+            <h2 class="wow slideInRight">CHÚNG TÔI LUÔN SẴN SÀNG HÃY KẾT NỐI VỚI <span>BVOTE!</span>
             </h2>
-            <a href="./contact.html">
+            <a href="./contact.html" class="wow bounce">
               <button>LIÊN HỆ
                 <img src="../../../dist/images/button-arrow.svg" alt="" />
               </button>
