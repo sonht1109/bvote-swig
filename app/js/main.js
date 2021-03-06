@@ -93,36 +93,43 @@ $(document).ready(function () {
         ]
     });
 
-    $('#project-slide').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        arrows: false,
-        dots: true,
-        responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3
-                }
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 540,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            },
-        ]
-    });
+    var initProjectSlide = () => {
+        $('#project-slide').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            arrows: false,
+            dots: true,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 540,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+            ]
+        });
+    }
+
+    var destroyProjectSlide = () => {
+        $('#project-slide').slick('unslick')
+    }
+    
     $('#customer-slide').slick({
         infinite: true,
         arrows: true,
@@ -160,5 +167,18 @@ $(document).ready(function () {
             },
         ]
     });
+    $('li.control-list__item').click(function(){
+        if($(this).attr('tab-show') === '#tab2'){
+            let isFirstInitAttr = $("#project-slide").attr('data-first-init')
+            console.log(isFirstInitAttr)
+            if(isFirstInitAttr === 'true'){
+                destroyProjectSlide();
+            //     console.log('first init')
+                $("#project-slide").attr('data-first-init', 'false');
+                initProjectSlide();
+            }
+        }
+    })
 
+    initProjectSlide()
 });
